@@ -12,19 +12,18 @@ export const AboutSection = () => {
         <div className="grid grid-cols-2 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Full-Stack, Back-End, and Database
+              Passionate about Full-Stack, Back-End, and Database
             </h3>
 
             <p className="text-muted-foreground">
-              As a recent graduate from the University of Georgia, I specialized
-              in creating responsive and data optimized web applications. [Work
-              Experience]
+              As a recent graduate from the University of Georgia, I specialize
+              in leading and building responsive and data optimized full-stack
+              development projects.
             </p>
 
             <p className="text-muted-foreground">
-              As a recent graduate from the University of Georgia, I specialized
-              in creating responsive and data optimized web applications.
-              [Passionate]
+              From these projects, I have strengthened my passion for
+              full-stack, backend, and database development projects.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -51,7 +50,7 @@ export const AboutSection = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">
-                    Full Stack Developemnt
+                    Full Stack Development
                   </h4>
                   <p className="text-muted-foreground">
                     Creating responsive websites and web applications with
@@ -67,11 +66,11 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">
-                    Full Stack Developemnt
-                  </h4>
+                  <h4 className="font-semibold text-lg">UI/UX Designer</h4>
                   <p className="text-muted-foreground">
-                    Creating full stackdevs
+                    Interested in designing optimitzed, user-centered web
+                    applications that deliver intuitive and seamless digital
+                    experiences.
                   </p>
                 </div>
               </div>
@@ -86,7 +85,7 @@ export const AboutSection = () => {
                   <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
                     Leading projects from conception to completion with agile
-                    methodologies.
+                    methodologies and clear documentation.
                   </p>
                 </div>
               </div>

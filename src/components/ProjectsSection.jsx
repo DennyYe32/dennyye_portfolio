@@ -20,7 +20,7 @@ const projects = [
     image: "/projects/project2.jpg",
     tags: ["React", "HTML/CSS", "JavaScript", "MongoDB"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/DennyYe32/Pinned",
   },
 
   {
@@ -31,7 +31,7 @@ const projects = [
     image: "/projects/project3.jpg",
     tags: ["React", "HTML/CSS", "JavaScript", "MongoDB"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/DennyYe32/Movie-Search-Engine",
   },
 ];
 
