@@ -12,7 +12,7 @@ const navItems = [
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -63,7 +63,11 @@ export const Navbar = () => {
           aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
         >
           {" "}
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {isMenuOpen ? (
+            <X size={24} className="cursor-pointer" />
+          ) : (
+            <Menu size={24} />
+          )}
         </button>
 
         <div
