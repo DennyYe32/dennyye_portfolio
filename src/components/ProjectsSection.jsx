@@ -17,9 +17,9 @@ const projects = [
     title: "Pinned",
     description:
       "A points-of-interest website that allows users to add, edit, and find points of interests around Athens, Georgia",
-    image: "/projects/project2.jpg",
+    image: "/projects/project2.png",
     tags: ["React", "HTML/CSS", "JavaScript", "MongoDB"],
-    demoUrl: "#",
+    demoUrl: "https://pinned-3mm7ktu3h-denny-yes-projects.vercel.app/",
     githubUrl: "https://github.com/DennyYe32/Pinned",
   },
 
