@@ -6,10 +6,12 @@ import { useEffect, useState } from "react";
 export const StarBackground = () => {
   const [stars, setStars] = useState([]);
   const [meteors, setMeteors] = useState([]);
+  const [monkeys, setMonkeys] = useState([]);
 
   useEffect(() => {
     generateStars();
     generateMeteors();
+    generateMonkeys();
 
     const handleResize = () => {
       generateStars();
@@ -60,6 +62,25 @@ export const StarBackground = () => {
     setMeteors(newMeteors);
   };
 
+  const generateMonkeys = () => {
+    const numberOfMonkeys = 5;
+
+    const newMonkeys = [];
+
+    for (let i = 0; i < numberOfMonkeys; i++) {
+      newMonkeys.push({
+        id: i,
+        size: Math.random() * 2 + 1,
+        x: Math.random() * 100,
+        y: Math.random() * 20,
+        delay: Math.random() * 15,
+        animationDuration: Math.random() * 10 + 20,
+      });
+    }
+
+    setMonkeys(newMonkeys);
+  };
+
   return (
     <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
       {stars.map((star) => (
@@ -88,6 +109,23 @@ export const StarBackground = () => {
             top: meteor.y + "%",
             animationDelay: meteor.delay,
             animationDuration: meteor.animationDuration + "s",
+          }}
+        />
+      ))}
+
+      {monkeys.map((monkey) => (
+        <img
+          key={monkey.id}
+          src="/media/AstronautMonkey.png"
+          alt="Astronaut Monkey"
+          className="animate-monkey"
+          style={{
+            width: Math.max(monkey.size * 50, 40) + "px",
+            height: "auto",
+            left: monkey.x + "%",
+            top: monkey.y + "%",
+            animationDelay: "0s",
+            animationDuration: monkey.animationDuration + "s",
           }}
         />
       ))}
