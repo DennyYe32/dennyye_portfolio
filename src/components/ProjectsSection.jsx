@@ -6,7 +6,7 @@ const projects = [
     title: "The Reading Room",
     description:
       "A library user-interface system that allows users to browse, checkout, and bookmark over 6,000 titles",
-    image: "/projects/project1.jpg",
+    image: "/media/project1.jpg",
     tags: ["Java", "Java Spring Boot", "SQL", "Docker"],
     demoUrl: "#",
     githubUrl: "#",
@@ -17,7 +17,7 @@ const projects = [
     title: "Pinned",
     description:
       "A points-of-interest website that allows users to add, edit, and find points of interests around Athens, Georgia",
-    image: "/projects/project2.png",
+    image: "/media/project2.png",
     tags: ["React", "HTML/CSS", "JavaScript", "MongoDB"],
     demoUrl: "https://pinned-3mm7ktu3h-denny-yes-projects.vercel.app/",
     githubUrl: "https://github.com/DennyYe32/Pinned",
@@ -28,7 +28,7 @@ const projects = [
     title: "ReelMovies",
     description:
       "A movie search engine web application based on TMDB API that allows users to search up, bookmark, and create folders for movies and TV shows",
-    image: "/projects/project3.jpg",
+    image: "/media/project3.jpg",
     tags: ["React", "HTML/CSS", "JavaScript", "MongoDB"],
     demoUrl: "#",
     githubUrl: "https://github.com/DennyYe32/Movie-Search-Engine",
