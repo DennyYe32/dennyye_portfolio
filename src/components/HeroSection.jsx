@@ -35,7 +35,7 @@ export const HeroSection = () => {
 
         <div className="w-48 h-48 md:w-100 md:h-100 rounded-full overflow-hidden shadow-2xl shadow-purple-500 opacity-0 animate-fade-in-delay-7">
           <img
-            src="media/ProfilePicture.JPG"
+            src="media/ProfilePicture.png"
             alt="Profile"
             className="w-full h-full object-cover"
           />
